@@ -3,6 +3,10 @@ CONFIG_PACKAGE_luci-app-homeproxy=n
 CONFIG_PACKAGE_luci-app-mihomo=y
 #集客AC插件
 CONFIG_PACKAGE_luci-app-gecoosac=n
+#wireguard相关
+CONFIG_PACKAGE_luci-proto-wireguard=y
+CONFIG_PACKAGE_wireguard-tools=y
+CONFIG_PACKAGE_kmod-wireguard=y
 #增加插件
 CONFIG_PACKAGE_luci-app-samba4=n
 CONFIG_PACKAGE_luci-app-cpufreq=y
@@ -37,7 +41,6 @@ CONFIG_PACKAGE_kmod-dsa=y
 CONFIG_PACKAGE_kmod-dsa-tag-dsa=y
 CONFIG_PACKAGE_kmod-fuse=y
 CONFIG_PACKAGE_kmod-tun=y
-CONFIG_PACKAGE_kmod-wireguard=y
 CONFIG_PACKAGE_kmod-mtd-rw=y
 CONFIG_PACKAGE_kmod-usb2=y
 CONFIG_PACKAGE_kmod-usb3=y
